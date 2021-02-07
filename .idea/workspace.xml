@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95aa0a9d-e6af-4384-98d8-ffa4433c4d5d" name="Default Changelist" comment="word2vec implemented.">
+    <list default="true" id="95aa0a9d-e6af-4384-98d8-ffa4433c4d5d" name="Default Changelist" comment="news.csv added">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiasFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/BiasFinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.BiasFinder">
     <configuration name="BiasFinder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -117,7 +116,28 @@
       <option name="project" value="LOCAL" />
       <updated>1612585133061</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="few changes in scaraper.py. Interactive output added. comments added.">
+      <created>1612668390314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612668390314</updated>
+    </task>
+    <task id="LOCAL-00005" summary="news.csv added">
+      <created>1612668495889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612668495889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commented code deleted.">
+      <created>1612670205041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612670205041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +159,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Sraper updated" />
     <MESSAGE value="word2vec implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="word2vec implemented." />
+    <MESSAGE value="few changes in scaraper.py. Interactive output added. comments added." />
+    <MESSAGE value="news.csv added" />
+    <MESSAGE value="commented code deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="commented code deleted." />
   </component>
 </project>

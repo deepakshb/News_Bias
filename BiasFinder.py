@@ -56,10 +56,6 @@ class BiasWordsFinder:
   def make_result_dataframe(self):
     self.seed_words = ['instructed','targeted','misguided','sidelined','defendant','victorious',
                        'rigorous','unequivocally','heartening','deteriorated']
-    # 'grotesque',
-    # 'deteriorated',
-    # 'heartening',
-    # ,'culmination'
 
     # Get embedding for each seed word
     self.results = np.array([[i for i in self.model.wv.most_similar(word,topn=100)] for word in self.seed_words])
@@ -84,8 +80,6 @@ class BiasWordsFinder:
 
 
 if __name__ == '__main__':
-
-
     file_available = os.path.exists('news.csv')
 
     if file_available ==False:

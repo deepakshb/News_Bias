@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95aa0a9d-e6af-4384-98d8-ffa4433c4d5d" name="Default Changelist" comment="Sraper updated">
+    <list default="true" id="95aa0a9d-e6af-4384-98d8-ffa4433c4d5d" name="Default Changelist" comment="word2vec implemented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiasFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/BiasFinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -107,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612537809039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="word2vec implemented.">
+      <created>1612585133061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612585133061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +138,7 @@
     </ignored-roots>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Sraper updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sraper updated" />
+    <MESSAGE value="word2vec implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="word2vec implemented." />
   </component>
 </project>

@@ -9,6 +9,8 @@ class TOIScraper:
         self.main_url = main_url
 
     def get_links(self, topic):
+        # This method searches a topic on Times of India Website and all picks the links of the
+        # articles (also from pagination)
         urls = []
         num_pages = -1
         page_counter = 1
@@ -35,15 +37,16 @@ class TOIScraper:
         return urls
 
     def get_articles_from_urls(self, urls):
-        #articles = []
+        # This methods scrapes the articles from the collected links
         with open('news.csv', 'w') as target:
             writer = csv.writer(target)
-            writer.writerow(["articles", ])
+            writer.writerow(["articles",])
         print("Scraping News articles...")
         for i in tqdm(range(len(urls))):
             try:
                 response = requests.get(urls[i])
                 soup = BeautifulSoup(response.text, 'html.parser')
+                # date = soup.find('div', "_3Mkg- byline").text
                 article = soup.find('div', "ga-headlines").text
                 with open('/Users/deepakrastogi/Documents/news_bias/news.csv', 'a') as target:
                     writer = csv.writer(target)
@@ -53,6 +56,7 @@ class TOIScraper:
         print("All articles stored in CSV")
 
     def scrape_news_articles(self):
+        # This method triggers the scraping process
         topics = ['politics','germany','trump','corona']
         all_urls = []
         for topic in topics:
@@ -61,9 +65,3 @@ class TOIScraper:
 
         uniq_urls = list(dict.fromkeys(all_urls))
         self.get_articles_from_urls(uniq_urls)
-
-
-
-if __name__ == "__main__":
-  obj_scraper = TOIScraper("https://timesofindia.indiatimes.com/")
-  obj_scraper.scrape_news_articles()
